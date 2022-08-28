@@ -1,0 +1,121 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    display:flex;
+    font-family:'Noto Sans', sans-serif;
+    color:white;
+    height: 75px;
+    background-color: green;
+}
+
+nav ul{
+    display:flex;
+    list-style-type:none;
+    align-items: center;
+}
+nav ul li{
+    margin:10px;
+}
+.brand{
+    display:flex;
+    align-items: center;
+    font-weight:bold;
+}
+span{
+    margin:6px;
+}
+.brand img{
+    width: 64px;
+    height:64px;
+}
+.container{
+    min-height:74.5vh;
+    width:75vw;
+    margin:auto;
+    font-family:'Noto Sans',sans-serif;
+    display:flex;
+    color:white;
+    background-color: rgb(255,255,255);
+    margin-top:25px;
+    margin-bottom:25px;
+    background-image: url('arijitbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:15px;
+}
+.container h1{
+    padding-left:25px;
+    padding-top:10px;
+}
+
+.songItem{
+    height: 50px;
+    width: 350px;
+    display: flex;
+    background-color: white;
+    
+    align-items: center;
+    
+    justify-content: space-between;
+    color:black;
+    border-radius:34px;
+    margin-left:25px;
+    margin-top:25px;
+    /* border:2px solid red; */
+}
+.songname{
+    padding-bottom:2px;
+}
+.songItem img{
+    margin-left:3px;
+    width:49px;
+    height:45px;
+    border-radius:34px;
+}
+.songlistplay{
+    display : flex;
+    align-items: center;
+    margin-right:15px;
+    margin-left:25px;
+}
+.timestamp i{
+    cursor: pointer;
+    /* border: 2px solid red; */
+}
+.bottom{
+    position:sticky;
+    bottom:0px;
+    min-height:120px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top:15px;
+    /* background-color: green; */
+}
+.icons i{
+    cursor: pointer;
+    margin-left:15px;
+}
+#progressBar{
+    width:80vw;
+    margin-top:15px;
+}
+.songinfo{
+    position: absolute;
+    left:10vw;
+    top:7vh;
+}
+.songinfo img{
+    height:15px;
+}
